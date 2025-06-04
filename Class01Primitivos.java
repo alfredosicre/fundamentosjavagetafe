@@ -1,7 +1,10 @@
+
+
 import java.util.Scanner;
 
 public class Class01Primitivos {
 
+    // psvm
     public static void main(String[] args) {
         // CONVERSION AUTOMATICA
         // byte menor = 15;

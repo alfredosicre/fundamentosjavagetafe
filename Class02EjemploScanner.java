@@ -1,3 +1,4 @@
+// pedimos por pantalla el nombre y la edad de una persona.
 import java.util.Scanner;
 
 public class Class02EjemploScanner {
@@ -5,16 +6,15 @@ public class Class02EjemploScanner {
         
     
 
-    Scanner teclado1 = new Scanner(System.in);
+    Scanner teclado = new Scanner(System.in);
+
+    // pedimos un nombre y lo almacenamos en nombre.
     System.out.println("Introduzca su nombre: ");
-    String nombre = teclado1.nextLine();
+    String nombre = teclado.nextLine();
 
-
-    System.out.println("Bienvenido a Java " + nombre);
-
+    // pedimos la edad y lo almacenamos en edad.
     System.out.println("Introduzca su edad: ");
-    Scanner teclado2 = new Scanner(System.in);
-    String edad = teclado2.nextLine();
+    String edad = teclado.nextLine();
     System.out.println("Tu edad es: " + edad);
     
     }
