@@ -9,6 +9,7 @@ import java.util.Scanner;
 
 public class Class05Estaciones {
 
+    // psvm
     public static void main(String[] args) {
         
         Scanner teclado = new Scanner(System.in);
@@ -20,23 +21,15 @@ public class Class05Estaciones {
 
         if (numero == 1) {
             System.out.println("Primavera");  
-        }else{ if (numero == 2) {
+        }else if (numero == 2) {
                 System.out.println("Verano");
-                }else{ if (numero == 3) {
+                }else if (numero == 3) {
                     System.out.println("Otoño");
-                    }else{ if (numero == 4) {
+                    }else if (numero == 4) {
                         System.out.println("Invierno");
                         }else{
                             System.out.println("ERROR!!!");
                             }
-
-                        }
-
-                    }
-
-            }
-
-
 
     }
 

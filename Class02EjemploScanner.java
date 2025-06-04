@@ -2,6 +2,8 @@
 import java.util.Scanner;
 
 public class Class02EjemploScanner {
+
+    // psvm
     public static void main(String[] args) {
         
     
