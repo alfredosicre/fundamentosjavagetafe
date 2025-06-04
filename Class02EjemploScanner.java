@@ -15,7 +15,8 @@ public class Class02EjemploScanner {
     // pedimos la edad y lo almacenamos en edad.
     System.out.println("Introduzca su edad: ");
     String edad = teclado.nextLine();
-    System.out.println("Tu edad es: " + edad);
+
+    System.out.println("Tu nombre es: " + nombre + " Tu edad es: " + edad);
     
     }
 
