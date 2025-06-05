@@ -15,9 +15,7 @@ public class Class08CalcularSalario {
         String dieta = " "; // dieta segun km
         int salario = 0; // salario
         int salarioExtra = 0; // salario extra.
-        double iva = 0;
 
-        
         Scanner teclado = new Scanner(System.in);
 
         // Introduccion de horas semanales, importe horas y kilometros:
