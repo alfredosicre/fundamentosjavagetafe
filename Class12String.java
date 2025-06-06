@@ -29,12 +29,25 @@ public class Class12String {
 
         System.out.println("startsWith('h')" + texto.startsWith("D"));
 
+        System.out.println("endsWith('a'): " + texto.endsWith("a"));
+
         // aplicar un metodo a un objeto, no implica que el objeto sea modificado
         // convertimos el texto a mayusculas
         texto.toUpperCase();
         // si deseamos modificar el objeto texto, debemos igualarlo
         texto = texto.toUpperCase();
+
+        //Recuperar un caracter
+        System.out.println("charAt(5): "
+            + texto.charAt(5));
+
+        // como recorrer un string caracter a caracter
+        for(int i = 0; i < texto.length(); i++){
+            char letra = texto.charAt(i);
+            System.out.println("Letra (" + i + "):" + letra);
+        }
         
+
         System.out.println(texto);
 
 
