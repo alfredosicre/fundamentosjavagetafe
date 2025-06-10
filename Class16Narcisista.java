@@ -11,19 +11,18 @@ public class Class16Narcisista {
         System.out.println("Introduzca el numero: ");
         String textoNumero = teclado.nextLine();
 
-        // calculamos la longitud del texto introducido
-        int longitud = textoNumero.length();
+        int longitud = textoNumero.length(); // calculamos la longitud del texto introducido
         int suma = 0;
         String aux01 = String.valueOf(textoNumero);
         int numeroComprobar = Integer.parseInt(aux01);
 
-        for(int i = 0; i <= longitud; i++){
-           //capturamos cada letra del texto
-            char letra = textoNumero.charAt(i); 
-            String aux = String.valueOf(letra);
-            int numero = Integer.parseInt(aux);
+        for(int i = 0; i < longitud; i++){
+           
+            char letra = textoNumero.charAt(i); //capturamos cada letra del texto
+            String aux = String.valueOf(letra); // la convertimos primero a string para que nos de el valor real
+            int numero = Integer.parseInt(aux); // la convertimos a número y ya tenemos el valor en numerico
 
-            double potencia = Math.pow(numero, longitud);
+            int potencia = (int) Math.pow(numero, longitud);
             System.out.println("La potencia de " + numero + " es " + potencia );
             suma += potencia; 
 
