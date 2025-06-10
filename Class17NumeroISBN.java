@@ -5,12 +5,12 @@ public class Class17NumeroISBN {
     // psvm
     public static void main(String[] args) {
         
-        Scanner teclado = new Scanner(System.in);
+        Scanner 
+        int multiplicacion = 0;teclado = new Scanner(System.in);
 
         // pedimos el numero por pantalla
         System.out.println("Introduzca el numero (10 caracteres): ");
         String textoNumero = teclado.nextLine();
-        int multiplicacion = 0;
         int suma = 0;
 
         int longitud = textoNumero.length(); // calculamos la longitud del texto introducido
