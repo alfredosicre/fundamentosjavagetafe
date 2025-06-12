@@ -8,6 +8,7 @@ public class Class24Metodos {
         // en los metodos return debemos almacenar la respuesta en una variable o preguntar por ella
         String saludo = metodoSaludo();
         System.out.println(saludo);
+        
         // otro metodo con parametros
         int suma = sumarNumeros(3, 4);
         System.out.println(" La suma es..: " + suma);

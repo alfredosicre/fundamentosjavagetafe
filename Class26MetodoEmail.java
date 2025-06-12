@@ -12,17 +12,25 @@ public class Class26MetodoEmail {
         String email = teclado.nextLine();
 
         //llamamos al metodo para validar el email
-        String data = evaluarEmail(email);
+        Boolean respuesta = evaluarEmail(email);
+
+        if (respuesta == true) {
+            System.out.println("El email esta correcto: ");
+        }else{
+            System.out.println("El email esta incorrecto: ");
+        }
 
 
 
 
     }
+    // metodo para saber si el mail esta bien o mal
 
-    public static String evaluarEmail(String emaill){
+    public static Boolean evaluarEmail(String email){
+        if (email.length() == 0) {
+            return true;
+        }else{
+            return false;
+        }
 
-
-        return 
     }
-
-}
