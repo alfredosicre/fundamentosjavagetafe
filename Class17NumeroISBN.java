@@ -5,9 +5,10 @@ public class Class17NumeroISBN {
     // psvm
     public static void main(String[] args) {
         
-        Scanner 
-        int multiplicacion = 0;teclado = new Scanner(System.in);
+        Scanner teclado = new Scanner(System.in);
 
+        int multiplicacion = 0;
+        
         // pedimos el numero por pantalla
         System.out.println("Introduzca el numero (10 caracteres): ");
         String textoNumero = teclado.nextLine();
